@@ -1,0 +1,30 @@
+:root{
+    --blue: #006cfa;
+    --acid-green: #00e165;
+    --white: #ffffff;
+    --black:#000000;
+}
+body{
+    background-color: var(--white);
+}
+.row{
+    color: var(--white);
+    font-weight: bold;
+    text-align: center;
+}
+.bg-blue{
+    border: 1px solid var(--white);
+    background-color: var(--blue);
+    padding: 15px;
+}
+.bg-green{
+    border: 1px solid var(--white);
+    background-color: var(--acid-green);
+    padding: 10px;
+}
+.pad-15{
+    padding: 15px;
+}
+.mt-20{
+    margin-top: 20px;
+}
