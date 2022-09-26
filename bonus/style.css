@@ -10,17 +10,24 @@
 }
 .debug{
     border: 1px solid white;
-    height: 50px;
+    height: 60px;
 }
 body{
     background-color: black;
     color: white;
+    font-family: 'M PLUS 1 Code', sans-serif;
 }
 .light-gray{
     border: 2px solid black;
     background-color: var(--light-gray);
     height: 60px;
 }
+.dark-gray{
+    border: 1px solid var(--light-gray);
+    background-color: var(--dark-gray);
+    height: 60px;
+}
+
 .red{
     border: 2px solid black;
     background-color: var(--red);
